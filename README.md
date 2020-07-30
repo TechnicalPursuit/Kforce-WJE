@@ -2,7 +2,7 @@
 
 ## overview
 
-`kforce-exercise` is an example for building applications with [React](https://reactjs.org).
+`Kforce-WJE` is an example for building applications with [React](https://reactjs.org).
 
 The foundation of this template is based on `create-react-app`, a React project framing utility developed by Facebook. Using `create-react-app` provides the minimum requirements for a modern React-based application. _See the [create-react-app readme](REACT-README.md) for more info_.
 
@@ -17,7 +17,7 @@ Once you've installed the [prerequisites](#prereqs) and performed the remaining 
 ``` bash
 npm run
 
-Lifecycle scripts included in kforce-exercise:
+Lifecycle scripts included in Kforce-WJE:
   start
     npm run build:css && react-scripts start
 
@@ -174,7 +174,6 @@ This project requires the following prerequisites to operate properly:
 
 - `git` version `2` or higher.
 - `Node.js` version `8.x` or higher.
-- `Java` version `8.x` or higher (for Nightwatch/Selenium tests)
 
 For non-Windows platforms we strongly recommend using `nvm` (Node Version Manager) to manage your `Node.js` installation. Using `nvm` allows you to easily adjust your `Node.js` version efficiently.
 
@@ -197,10 +196,10 @@ If you aren't running `nvm` install Node.js by following the installation instru
 
 ### git clone
 
-With the various prerequisites in place you can start the final installation process. The first step is to clone the `kforce-exercise` project from Github.
+With the various prerequisites in place you can start the final installation process. The first step is to clone the `Kforce-WJE` project from Github.
 
 ``` bash
-git clone https://github.com/TechnicalPursuit/kforce-exercise.git
+git clone https://github.com/TechnicalPursuit/Kforce-WJE.git
 ```
 
 ### npm install
@@ -210,7 +209,7 @@ Once the clone operation completes change directories into the project and run `
 NOTE: the `npm install` step can take a few minutes depending on network speed etc.
 
 ``` bash
-cd kforce-exercise
+cd Kforce-WJE
 npm install
 ```
 
