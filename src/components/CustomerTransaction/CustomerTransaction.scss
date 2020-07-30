@@ -1,0 +1,28 @@
+.CustomerTransaction {
+
+    height: 3rem;
+
+    text-align: center;
+    font-weight: bold;
+    font-family: "Montserrat", "Helvetica", "Arial", "Verdana", sans-serif;
+
+    display: grid;
+
+    grid-gap: 0;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+        "date dollars"
+        "blank points";
+
+    .date {
+        grid-area: date;
+    }
+
+    .dollars {
+        grid-area: dollars;
+    }
+
+    .points {
+        grid-area: points;
+    }
+}

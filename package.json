@@ -1,0 +1,71 @@
+{
+  "name": "Kforce-WJE",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "build": "react-scripts build",
+    "build:css": "node-sass-chokidar src/ -o src/",
+    "lint": "eslint --ext=js --ext=jsx .",
+    "start": "npm run build:css && react-scripts start",
+    "storybook": "npm run build:css && start-storybook -p 9009 -s public",
+    "stylelint": "stylelint '**/*.scss'"
+  },
+  "dependencies": {
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "fullcalendar-reactwrapper": "^1.0.7",
+    "history": "^5.0.0",
+    "immutable": "^3.8.2",
+    "jStat": "^1.8.6",
+    "lodash": "^4.17.19",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^4.0.0",
+    "shelljs": "^0.8.4",
+    "sprintf-js": "^1.1.2",
+    "whatwg-fetch": "^3.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.4",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "helmet": "^3.23.3",
+    "jest": "^26.1.0",
+    "minimist": "^1.2.5",
+    "morgan": "^1.10.0",
+    "nightwatch": "^1.3.7",
+    "node-sass-chokidar": "^1.3.3",
+    "request": "^2.88.2",
+    "stylelint": "^13.6.1",
+    "stylelint-config-standard": "^20.0.0",
+    "winston": "^3.3.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
